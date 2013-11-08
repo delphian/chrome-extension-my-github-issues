@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+
+  "name": "My Github Issues",
+  "description": "Chrome extension to display all issues assigned to a user from both owned and member repositories.",
+  "version": "0.9.0",
+
+  "homepage_url": "https://github.com/delphian/my-github-issues-chrome-extension/wiki",
+
+  "permissions": [
+    "https://api.github.com/",
+    "http://api.github.com/",
+    "notifications"
+  ],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  
+  "options_page": "options/options.html",
+
+  "browser_action": {
+    "default_icon": {
+      "19": "images/mgi-icon-19.png",
+      "38": "images/mgi-icon-38.png"
+    },
+    "default_title": "My Github Issues",
+    "default_popup": "popup/popup.html"
+  },
+
+  "icons": { 
+    "16": "images/mgi-icon-16.png",
+    "19": "images/mgi-icon-19.png",
+    "38": "images/mgi-icon-38.png",
+    "48": "images/mgi-icon-48.png",
+    "128": "images/mgi-icon-128.png"
+  },
+
+  "background": {
+    "page": "background/background.html"
+  }
+
+}

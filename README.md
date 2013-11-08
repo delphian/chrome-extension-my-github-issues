@@ -13,5 +13,6 @@ Copyright (c) 2013 Bryan Hazelbaker bryan.hazelbaker@gmail.com Released under th
 
 git clone --recursive https://github.com/delphian/my-github-issues-chrome-extension.git
 cd my-github-issues-chrome-extension
+./install.sh
 
 Feel free to contact me bryan.hazelbaker@gmail.com with any questions.
