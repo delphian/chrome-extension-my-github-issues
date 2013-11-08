@@ -3,7 +3,7 @@ My Github Issues Chrome Extension
 
 Chrome extension to display all issues assigned to a user from both owned and member repositories.
 
-Please see this original document at https://github.com/delphian/my-github-issues-chrome-extension/wiki
+Please see this original document at https://github.com/delphian/my-github-issues-chrome-extension/wiki or submit an issue to the [Issue Queue](https://github.com/delphian/my-github-issues-chrome-extension/issues/new)
 
 ### License ###
 
