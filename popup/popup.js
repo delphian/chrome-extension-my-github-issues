@@ -2,15 +2,13 @@
 // Setup initial values when popup is first opened.
 jQuery('document').ready(function($) {
     var background = chrome.extension.getBackgroundPage();
-    var AstroEmpires = background.AstroEmpires;
+    var MGI = background.MGI;
     if (!localStorage['name'] || !localStorage['password']) {
         var body = jQuery('body');
         body.html('<p>Please first enter your credentials under chrome settings, extensions</p><p>After saving configuration it may take up to 60 seconds for data to display.</p>');
         return;
     }
-
-
-
+    MGI.getData();
 });
 
 /**

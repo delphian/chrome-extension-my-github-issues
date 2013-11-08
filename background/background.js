@@ -80,7 +80,7 @@ jQuery('document').ready(function ($) {
     // Poll for updates.
     setInterval(function () {
         MGI.getData();
-    }, 0.1 * 60000);
+    }, 5 * 60000);
 });
 
 function printValues(mgi) {
