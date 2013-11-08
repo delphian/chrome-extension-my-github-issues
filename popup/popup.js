@@ -21,8 +21,9 @@ function printValues(mgi) {
         html = '';
 
     for (var i = 0; i < length; i++) {
-        issue = issues[i];
-        html = html + '<p>' + issue['title'] + '</p>';
+        issue = issues[i];        
+        html="";
+        html = html + '<p><a target="_blank" href="' + issue['html_url'] + '">' + issue['title'] + '</a></p>';        
     }
     jQuery('div.issue-container div.content').html(html); 
 }
